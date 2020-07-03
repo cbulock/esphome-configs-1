@@ -28,19 +28,19 @@ esphome:
   wifi:
     ssid: "wifi"
     password: !secret wifi_password
-    
+
     ap:
       ssid: "Fallback Hotspot"
       password: !secret local_ap_password
-  
+
   captive_portal:
-  
+
   logger:
-  
+
   api:
-  
+
   ota:
-  
+
   web_server:
 
 binary_sensor:
